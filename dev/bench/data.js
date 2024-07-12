@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720566547298,
-  "repoUrl": "https://github.com/pomerium/pomerium",
+  "lastUpdate": 1720777944210,
+  "repoUrl": "https://github.com/is-audit/pomerium",
   "entries": {
     "Benchmark": [
       {
@@ -114376,6 +114376,42 @@ window.BENCHMARK_DATA = {
             "value": 5943391,
             "unit": "ns/op",
             "extra": "201 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "support@semgrep.com",
+            "name": "semgrep.dev on behalf of @rohitkumar-is",
+            "username": "semgrep-bot"
+          },
+          "committer": {
+            "email": "support@semgrep.com",
+            "name": "semgrep.dev",
+            "username": "semgrep-bot"
+          },
+          "distinct": true,
+          "id": "cf8b28f08c37b3e69ce6f8c1a0f1adbd54b1e567",
+          "message": "Add Semgrep CI",
+          "timestamp": "2024-07-12T09:48:49Z",
+          "tree_id": "39e7701ada8fa543f4a3afabf61d9d8db5742330",
+          "url": "https://github.com/is-audit/pomerium/commit/cf8b28f08c37b3e69ce6f8c1a0f1adbd54b1e567"
+        },
+        "date": 1720777933821,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkLoggedInUserAccess",
+            "value": 9912971,
+            "unit": "ns/op",
+            "extra": "122 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkLoggedOutUserAccess",
+            "value": 6452631,
+            "unit": "ns/op",
+            "extra": "182 times\n4 procs"
           }
         ]
       }
